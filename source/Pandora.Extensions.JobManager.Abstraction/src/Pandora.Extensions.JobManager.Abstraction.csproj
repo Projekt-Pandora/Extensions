@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Generelle Projekt Konfiguration -->
+	<PropertyGroup>
+		<TargetFrameworks>net80</TargetFrameworks>
+		<RootNamespace>Pandora</RootNamespace>
+		<Nullable>enable</Nullable>
+		<LangVersion>default</LangVersion>
+	</PropertyGroup>
+</Project>

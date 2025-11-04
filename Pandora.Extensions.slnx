@@ -1,0 +1,38 @@
+<Solution>
+  <Folder Name="/source/" />
+  <Folder Name="/source/Pandora.Extensions.JobManager.Abstraction/" />
+  <Folder Name="/source/Pandora.Extensions.JobManager.Abstraction/src/">
+    <Project Path="source/Pandora.Extensions.JobManager.Abstraction/src/Pandora.Extensions.JobManager.Abstraction.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.JobManager.Abstraction/test/">
+    <Project Path="source/Pandora.Extensions.JobManager.Abstraction/test/Pandora.Extensions.JobManager.Abstraction.Test.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.JobManager.Scheduler/" />
+  <Folder Name="/source/Pandora.Extensions.JobManager.Scheduler/src/">
+    <Project Path="source/Pandora.Extensions.JobManager.Scheduler/src/Pandora.Extensions.JobManager.Scheduler.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.JobManager.Scheduler/test/">
+    <Project Path="source/Pandora.Extensions.JobManager.Scheduler/test/Pandora.Extensions.JobManager.Scheduler.Test.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.JobManager/" />
+  <Folder Name="/source/Pandora.Extensions.JobManager/src/">
+    <Project Path="source/Pandora.Extensions.JobManager/src/Pandora.Extensions.JobManager.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.JobManager/test/">
+    <Project Path="source/Pandora.Extensions.JobManager/test/Pandora.Extensions.JobManager.Test.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.Mediator.Abstraction/" />
+  <Folder Name="/source/Pandora.Extensions.Mediator.Abstraction/src/">
+    <Project Path="source/Pandora.Extensions.Mediator.Abstraction/src/Pandora.Extensions.Mediator.Abstraction.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.Mediator.Abstraction/test/">
+    <Project Path="source/Pandora.Extensions.Mediator.Abstraction/test/Pandora.Extensions.Mediator.Abstraction.Test.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.Mediator/" />
+  <Folder Name="/source/Pandora.Extensions.Mediator/src/">
+    <Project Path="source/Pandora.Extensions.Mediator/src/Pandora.Extensions.Mediator.csproj" />
+  </Folder>
+  <Folder Name="/source/Pandora.Extensions.Mediator/test/">
+    <Project Path="source/Pandora.Extensions.Mediator/test/Pandora.Extensions.Mediator.Test.csproj" />
+  </Folder>
+</Solution>
