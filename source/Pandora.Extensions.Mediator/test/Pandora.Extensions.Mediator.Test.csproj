@@ -10,6 +10,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+		<PackageReference Include="Moq" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" />
 		<PackageReference Include="NUnit" />
 		<PackageReference Include="NUnit3TestAdapter" />
@@ -25,6 +27,10 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\src\Pandora.Extensions.Mediator.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Extensions\Mediator\Builder\" />
 	</ItemGroup>
 
 </Project>

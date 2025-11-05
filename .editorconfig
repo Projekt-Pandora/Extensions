@@ -1,0 +1,47 @@
+# .editorconfig für C#-Projekte
+root = true
+
+[*.cs]
+
+# Einrückung und Formatierung
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+charset = utf-8-bom
+
+# C# spezifische Code-Stilregeln
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+
+# Bevorzugte Namespace-Schreibweise (file-scoped)
+csharp_style_namespace_declarations = file_scoped:suggestion
+
+# Klammerstil
+csharp_prefer_braces = true:suggestion
+
+# Ausdrucksvereinfachung
+csharp_style_expression_bodied_methods = false:suggestion
+csharp_style_expression_bodied_properties = false:suggestion
+
+# var-Verwendung
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# Null-Prüfungen
+csharp_style_throw_expression = true:suggestion
+csharp_style_conditional_delegate_call = true:suggestion
+
+# Namenskonventionen (optional)
+dotnet_naming_rule.private_fields_with_underscore.severity = warning
+dotnet_naming_rule.private_fields_with_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_with_underscore.style = underscore_prefix
+
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.required_modifiers =
+
+dotnet_naming_style.underscore_prefix.required_prefix = _
+dotnet_naming_style.underscore_prefix.capitalization = camel_case
+
+

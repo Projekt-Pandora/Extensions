@@ -1,4 +1,11 @@
 <Solution>
+  <Folder Name="/Documents/">
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Nuget/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Folder Name="/source/" />
   <Folder Name="/source/Pandora.Extensions.JobManager.Abstraction/" />
   <Folder Name="/source/Pandora.Extensions.JobManager.Abstraction/src/">

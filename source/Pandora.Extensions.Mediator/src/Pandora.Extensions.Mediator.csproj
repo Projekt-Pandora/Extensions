@@ -7,4 +7,10 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>default</LangVersion>
 	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Extensions\Mediator\Builder\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Pandora.Extensions.Mediator.Abstraction\src\Pandora.Extensions.Mediator.Abstraction.csproj" />
+	</ItemGroup>
 </Project>
